@@ -18,9 +18,9 @@ This script: <br/>
 1. Use Firebase service account JSON <br/>
 - Go to https://console.firebase.google.com/ <br/>
 - Select your Firebase project <br/>
-- Go to **Project Settings** <br/>
-- Open the **Service Accounts** tab <br/>
-- Click **Generate New Private Key** <br/>
+- Go to Project Settings <br/>
+- Open the Service Accounts tab <br/>
+- Click Generate New Private Key <br/>
 - Download the `.json` file <br/>
 - Place it as firebase-service-account.json in the project root, and if you want to change the name of json file, then change line 20 of App.js. <br/>
 2. Use PostgreSQL <br/>
