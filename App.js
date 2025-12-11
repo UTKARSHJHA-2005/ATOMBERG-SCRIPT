@@ -3,13 +3,7 @@
  * This script supports:
  *  - REAL DynamoDB + PostgreSQL connections
  *                   OR 
- *  - getbacks to MOCK data if no DB exists
- * 
- * Reviewers can provide:
- *  POSTGRES_URL (connection string)
- *  AWS credentials for DynamoDB
- * 
- * If not provided → script runs with mock data.
+ *  - getbacks to MOCK data if no DB exists 
  */
 import AWS from "aws-sdk"; // DynamoDB Client
 import { Pool } from "pg"; // PostgreSQL Client
