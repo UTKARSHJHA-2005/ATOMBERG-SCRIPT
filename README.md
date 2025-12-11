@@ -3,7 +3,7 @@ This is the Node.js script that sends an FCM notification to all users who haven
 This script: <br/>
 ✔ Detects locks whose battery hasn't been checked for > 1 month  <br/>
 ✔ Fetches users linked to those locks  <br/>
-✔ Sends push notifications (REAL FCM) <br/>  
+✔ Sends push notifications (REAL FCM) 
 ✔ Tracks notifications sent  <br/>
 ✔ Tracks notifications opened  <br/>
 ✔ Computes campaign effectiveness weekly <br/>
